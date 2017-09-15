@@ -118,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/lib/libsam.so:system/lib/libsam.so \
     vendor/samsung/jf-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/jf-common/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
+    vendor/samsung/jf-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/samsung/jf-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/samsung/jf-common/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/jf-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
