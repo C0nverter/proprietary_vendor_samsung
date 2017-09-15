@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-gsm-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/jf-gsm-common/proprietary/bin/qcks:system/bin/qcks \
     vendor/samsung/jf-gsm-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/jf-gsm-common/proprietary/vendor/bin/hw/rild:vendor/bin/hw/rild \
     vendor/samsung/jf-gsm-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/jf-gsm-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/samsung/jf-gsm-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -40,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-gsm-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/samsung/jf-gsm-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/jf-gsm-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/bin/hw/rild:vendor/bin/hw/rild \
     vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
