@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-gsm-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/samsung/jf-gsm-common/proprietary/lib/libril-qcril-external.so:system/lib/libril-qcril-external.so \
     vendor/samsung/jf-gsm-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/jf-gsm-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
