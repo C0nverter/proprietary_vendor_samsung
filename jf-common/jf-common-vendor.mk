@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/jf-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/samsung/jf-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/samsung/jf-common/proprietary/etc/sec_config:system/etc/sec_config \
+    vendor/samsung/jf-common/proprietary/vendor/etc/sec_config:system/vendor/etc/sec_config \
     vendor/samsung/jf-common/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/jf-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/jf-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
