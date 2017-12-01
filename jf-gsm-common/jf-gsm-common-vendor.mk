@@ -20,24 +20,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-gsm-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/samsung/jf-gsm-common/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
     vendor/samsung/jf-gsm-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libril-qcril-external.so:system/lib/libril-qcril-external.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/jf-gsm-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libatparser.so:system/vendor/lib/libatparser.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libfactoryutil.so:system/vendor/lib/libfactoryutil.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libomission_avoidance.so:system/vendor/lib/libomission_avoidance.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libreference-ril.so:system/vendor/lib/libreference-ril.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libril-qcril-external.so:system/vendor/lib/libril-qcril-external.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libsecril-client.so:system/vendor/lib/libsecril-client.so \
     vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/jf-gsm-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
