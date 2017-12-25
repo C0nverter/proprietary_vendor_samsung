@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/jf-common/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/samsung/jf-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
-    vendor/samsung/jf-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/samsung/jf-common/proprietary/cameradata/M10MO_SFW.bin:system/cameradata/M10MO_SFW.bin \
     vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_OL.bin:system/cameradata/RS_M10MO_OL.bin \
     vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_OS.bin:system/cameradata/RS_M10MO_OS.bin \
@@ -48,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/lib/hw/sensors.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8960.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
-    vendor/samsung/jf-common/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
@@ -152,7 +150,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/lib/libwvdrm_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L1.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
-
-PRODUCT_PACKAGES += \
-    libtime_genoff \
-    TimeService
