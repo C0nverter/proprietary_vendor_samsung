@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/bin/mpdecision:$(TARGET_COPY_OUT_VENDOR)/bin/mpdecision \
     vendor/samsung/jf-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/jf-common/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
-    vendor/samsung/jf-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
+    vendor/samsung/jf-common/proprietary/vendor/bin/thermald:$(TARGET_COPY_OUT_VENDOR)/bin/thermald \
     vendor/samsung/jf-common/proprietary/cameradata/M10MO_SFW.bin:system/cameradata/M10MO_SFW.bin \
     vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_OL.bin:system/cameradata/RS_M10MO_OL.bin \
     vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_OS.bin:system/cameradata/RS_M10MO_OS.bin \
