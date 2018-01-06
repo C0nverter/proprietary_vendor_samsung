@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/jactivelte/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/samsung/jactivelte/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
-    vendor/samsung/jactivelte/proprietary/vendor/bin/v4l2-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/v4l2-qcamera-app \
     vendor/samsung/jactivelte/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/jactivelte/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/samsung/jactivelte/proprietary/vendor/lib/libchromatix_imx074_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx074_default_video.so \
