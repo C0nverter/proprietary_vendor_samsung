@@ -22,13 +22,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/jf-common/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/samsung/jf-common/proprietary/vendor/bin/thermald:$(TARGET_COPY_OUT_VENDOR)/bin/thermald \
-    vendor/samsung/jf-common/proprietary/cameradata/M10MO_SFW.bin:system/cameradata/M10MO_SFW.bin \
-    vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_OL.bin:system/cameradata/RS_M10MO_OL.bin \
-    vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_OS.bin:system/cameradata/RS_M10MO_OS.bin \
-    vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_SL.bin:system/cameradata/RS_M10MO_SL.bin \
-    vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_SS.bin:system/cameradata/RS_M10MO_SS.bin \
-    vendor/samsung/jf-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/jf-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/jf-common/proprietary/vendor/cameradata/M10MO_SFW.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/M10MO_SFW.bin \
+    vendor/samsung/jf-common/proprietary/vendor/cameradata/RS_M10MO_OL.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/RS_M10MO_OL.bin \
+    vendor/samsung/jf-common/proprietary/vendor/cameradata/RS_M10MO_OS.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/RS_M10MO_OS.bin \
+    vendor/samsung/jf-common/proprietary/vendor/cameradata/RS_M10MO_SL.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/RS_M10MO_SL.bin \
+    vendor/samsung/jf-common/proprietary/vendor/cameradata/RS_M10MO_SS.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/RS_M10MO_SS.bin \
+    vendor/samsung/jf-common/proprietary/vendor/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/jf-common/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/jf-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/jf-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/samsung/jf-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
