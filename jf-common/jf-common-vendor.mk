@@ -34,13 +34,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/samsung/jf-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/jf-common/proprietary/etc/srm.bin:system/etc/srm.bin \
-    vendor/samsung/jf-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/jf-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
-    vendor/samsung/jf-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/jf-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/jf-common/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
-    vendor/samsung/jf-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/jf-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/jf-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/jf-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin \
+    vendor/samsung/jf-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/jf-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/jf-common/proprietary/vendor/etc/wifi/cred.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/cred.conf \
+    vendor/samsung/jf-common/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/jf-common/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
     vendor/samsung/jf-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/hw/sensorhubs.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.msm8960.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/hw/sensors.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8960.so \
