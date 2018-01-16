@@ -29,9 +29,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/cameradata/RS_M10MO_SS.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/RS_M10MO_SS.bin \
     vendor/samsung/jf-common/proprietary/vendor/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_420sp.yuv \
     vendor/samsung/jf-common/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/jf-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/jf-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/jf-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/samsung/jf-common/proprietary/vendor/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pfp.fw \
+    vendor/samsung/jf-common/proprietary/vendor/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pm4.fw \
+    vendor/samsung/jf-common/proprietary/vendor/firmware/vidc_1080p.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/vidc_1080p.fw \
     vendor/samsung/jf-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/jf-common/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/jf-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
